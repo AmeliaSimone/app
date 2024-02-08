@@ -4,3 +4,23 @@
     gap: 25px;
     padding: 36px;
 }
+
+@media (width < 1200px){
+    .body{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (width < 550px){
+    .body{
+        padding: 20px;
+    }
+}
+
+@media (width < 420px){
+    .body{
+        padding: 10px;
+        gap: 10px;
+    }
+}

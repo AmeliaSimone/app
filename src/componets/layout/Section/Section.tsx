@@ -2,9 +2,9 @@ import React from 'react'
 
 import styles from "./Section.module.scss"
 
-const Section = ({children, width, aling}:any) => {
+const Section = ({children, width, aling, wrap}:any) => {
   return (
-    <div className={styles.section} style={{"width": width, justifyContent:aling}}>{children}</div>
+    <div className={`${styles.section} ${styles.query}`} style={{"width": width, justifyContent:aling, flexWrap: wrap}}>{children}</div>
   );
 };
 

@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       <Screen>
-        <Header />
+        <Header/>
         <Body>
           <Panel>
             <Section width="550px">
@@ -36,7 +36,7 @@ export default function Home() {
                 width="530px"
               />
             </Section>
-            <Section width="550px">
+            <Section width="550px" wrap="wrap">
               <TextBox
                 label="Producto"
                 text="Sala De Urgencua Familiar 21UF"
@@ -47,27 +47,27 @@ export default function Home() {
                 data={["Urgecia medica por enfermedad", "Otro Item"]}
                 width="530px"
               />
-              <TextBox
+              <TextBox  md="mitad"
                 label="Monto disponible"
                 text="0"
                 width="190px"
               />
-              <TextBox
+              <TextBox  md="mitad"
                 label="Eventos"
                 text="0"
                 width="120px"
               />
-              <TextBox
+              <TextBox md="completo"
                 label="Límite"
                 text=""
                 width="210px"
               />
-              <TextBox
+              <TextBox  md="mitad"
                 label="Monto Utilizado"
                 text="0"
                 width="190px"
               />
-              <TextBox
+              <TextBox  md="mitad"
                 label="Eventos usados"
                 text="0"
                 width="120px"

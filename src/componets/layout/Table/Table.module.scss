@@ -66,3 +66,34 @@
         }
     }
 }
+
+@media (width < 1200px){
+    .table{
+        height: auto;
+    }
+
+    .table-header{
+        height: auto;
+        width: 530px;
+    }
+    .table-detail{
+        height: auto;
+        width: 530px;
+    }
+}
+
+@media (width < 550px){
+    .table{
+        height: auto;
+    }
+
+    .table-header{
+        
+        width: 400px;
+    }
+    .table-detail{
+        
+        width: 400px;
+    }
+    
+}

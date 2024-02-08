@@ -24,3 +24,13 @@
     font-weight: 600;
 }
 }
+
+@media (width <900px){
+    .header .logo{
+        display: none;
+    }
+
+    .header .title{
+        width: 100%;
+    }
+}
