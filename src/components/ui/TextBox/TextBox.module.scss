@@ -1,9 +1,7 @@
 .textBox {
   position: relative;
   
-
   
-
   label {
     position: absolute;
     left: 14px;
@@ -28,20 +26,5 @@
       cursor: pointer;
     }
   }
-}
-
-@media (width < 1200px){
-  .textBox{
-    width: 110px;
-    &.mitad{
-      
-      width:calc(50% - 3px) !important;
-    }
-    &.completo{
-      width: 100% !important;
-      
-    }
-  }
-  
 }
 

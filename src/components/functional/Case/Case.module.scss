@@ -1,0 +1,22 @@
+@media (width < 1200px){
+    .body{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+   .panel{
+    width: 530px;
+    align-items: center;
+   
+   }
+ 
+
+   .section{
+   width: 400px !important;
+    border: 1px solid blue;
+   }
+
+
+}
+
