@@ -6,8 +6,6 @@
   width: 600px;
 }
 
-
-
 .tableValues {
   div[class*="table-header"] {
     div[class*="table-cell"] {
@@ -94,7 +92,6 @@
   .section {
     width: 405px !important;
   }
- 
 
   .tableValues {
     div[class*="table-header"] {
@@ -188,17 +185,17 @@
     width: 100% !important;
   }
 
-  .textBox{
-    input{
-        font-size: 14px;
-        
+  .textBox {
+    input {
+      font-size: 14px;
     }
   }
-  .limite{ /*Intento de width*/
-   input{
-    background-color: red;
-    width: 100% ;
-   }
+  .limite {
+    /*Intento de width*/
+    input {
+      background-color: red;
+      width: 100%;
+    }
   }
 
   .tableValues {
@@ -208,7 +205,6 @@
         font-size: 14px !important;
         &:nth-child(1) {
           width: 328px;
-          
         }
         &:nth-child(2) {
           display: none;
@@ -221,11 +217,11 @@
         div[class*="table-cell"] {
           &:nth-child(1) {
             width: 328px;
-            font-size: 14px ;
+            font-size: 14px;
           }
           &:nth-child(2) {
             width: 328px;
-            font-size: 14px ;
+            font-size: 14px;
           }
         }
       }
