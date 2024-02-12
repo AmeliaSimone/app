@@ -30,60 +30,47 @@ export const Case = () => {
         <Panel className={styles.panelValues}>
           <Section width="100%" className={styles.section}>
             <TextBox
-              className={styles.textBox}
+              className={styles.textBoxCompany}
               label="Empresa"
               text="BCI Seguros Generales S.A."
-              width="100%"
             />
             <TextBox
-              className={styles.textBox}
+              className={styles.textBoxBeneficiary}
               label="Beneficiario"
               text="MARIA BERNARDITA ISABEL MUÑOZ PARADA"
-              width="100%"
             />
           </Section>
           <Section width="100%" wrap="wrap" className={styles.section}>
             <TextBox
-              className={styles.textBox}
+              className={styles.textBoxProduct}
               label="Producto"
               text="Sala De Urgencua Familiar 21UF"
-              width="100%"
             />
             <ComboBox
-              className={styles.comboBox}
+              className={styles.comboBoxAssistance}
               label="Asistencia"
               data={["Urgecia medica por enfermedad", "Otro Item"]}
-              width="100%"
             />
             <TextBox
-              className={styles.textBox}
+              className={styles.textBoxAmount}
               label="Monto disponible"
               text="0"
-              width="190px"
             />
             <TextBox
-              className={styles.textBox}
+              className={styles.textBoxEvents}
               label="Eventos"
               text="0"
-              width="120px"
             />
+            <TextBox className={styles.textBoxLimit} label="Límite" text="" />
             <TextBox
-              className={styles.limite}
-              label="Límite"
-              text=""
-              width="210px"
-            />
-            <TextBox
-              className={styles.textBox}
+              className={styles.textBoxAmountUsed}
               label="Monto Utilizado"
               text="0"
-              width="190px"
             />
             <TextBox
-              className={styles.textBox}
+              className={styles.textBoxEventsUsed}
               label="Eventos usados"
               text="0"
-              width="120px"
             />
           </Section>
           <Section className={styles.section}>
