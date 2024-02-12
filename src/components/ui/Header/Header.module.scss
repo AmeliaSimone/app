@@ -34,3 +34,14 @@
         width: 100%;
     }
 }
+
+@media (width <420px){
+    .header .logo{
+        display: none;
+    }
+
+    .header .title{
+        width: 100%;
+        font-size: 18px;
+    }
+}
