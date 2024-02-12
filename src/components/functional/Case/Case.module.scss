@@ -6,6 +6,41 @@
   width: 600px;
 }
 
+.textBoxCompany {
+  width: 100%;
+}
+
+.textBoxBeneficiary {
+  width: 100%;
+}
+
+.textBoxProduct {
+  width: 100%;
+}
+
+.comboBoxAssistance {
+  width: 100%;
+}
+.textBoxAmount {
+  width: 190px;
+}
+
+.textBoxEvents {
+  width: 120px;
+}
+
+.textBoxLimit {
+  width: 210px;
+}
+
+.textBoxAmountUsed {
+  width: 190px;
+}
+
+.textBoxEventsUsed {
+  width: 120px;
+}
+
 .tableValues {
   div[class*="table-header"] {
     div[class*="table-cell"] {
@@ -17,6 +52,7 @@
       }
     }
   }
+  
   div[class*="table-detail"] {
     div[class*="table-row"] {
       div[class*="table-cell"] {
@@ -51,6 +87,7 @@
       }
     }
   }
+  
   div[class*="table-detail"] {
     div[class*="table-row"] {
       div[class*="table-cell"] {
@@ -93,6 +130,26 @@
     width: 405px !important;
   }
 
+  .textBoxAmount {
+    width: 50%;
+  }
+  
+  .textBoxEvents {
+    width: calc(50% - 5px);
+  }
+  
+  .textBoxLimit {
+    width: 100%;
+  }
+  
+  .textBoxAmountUsed {
+    width: 50%;
+  }
+  
+  .textBoxEventsUsed {
+    width: calc(50% - 5px);
+  }
+
   .tableValues {
     div[class*="table-header"] {
       width: auto;
@@ -105,6 +162,7 @@
         }
       }
     }
+    
     div[class*="table-detail"] {
       width: auto;
       div[class*="table-row"] {
@@ -125,7 +183,7 @@
       width: auto;
       div[class*="table-cell"] {
         &:nth-child(1) {
-          width: 95px;
+          width: 105px;
         }
         &:nth-child(2) {
           width: 60px;
@@ -141,12 +199,13 @@
         }
       }
     }
+    
     div[class*="table-detail"] {
       width: auto;
       div[class*="table-row"] {
         div[class*="table-cell"] {
           &:nth-child(1) {
-            width: 95px;
+            width: 105px;
           }
           &:nth-child(2) {
             width: 60px;
@@ -190,12 +249,25 @@
       font-size: 14px;
     }
   }
-  .limite {
-    /*Intento de width*/
-    input {
-      background-color: red;
-      width: 100%;
-    }
+  
+  .textBoxAmount {
+    width: 100%;
+  }
+  
+  .textBoxEvents {
+    width: 100%;
+  }
+  
+  .textBoxLimit {
+    width: 100%;
+  }
+  
+  .textBoxAmountUsed {
+    width: 100%;
+  }
+  
+  .textBoxEventsUsed {
+    width: 100%;
   }
 
   .tableValues {
@@ -211,6 +283,7 @@
         }
       }
     }
+    
     div[class*="table-detail"] {
       div[class*="table-row"] {
         flex-direction: column;
@@ -250,6 +323,7 @@
         }
       }
     }
+    
     div[class*="table-detail"] {
       div[class*="table-row"] {
         div[class*="table-cell"] {
